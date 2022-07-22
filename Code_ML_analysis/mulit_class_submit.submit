@@ -1,0 +1,20 @@
+executable = /usr/bin/bash
+transfer_executable = False
+initial_dir= /data/project/transgender_replication/code/transgender_machine_learning/
+universe = vanilla
+getenv = True
+request_cpus = 10
+request_memory = 16GB
+
+arguments = ./run_in_venv.sh ./code/multi_class_classification.py ./derivatives/multi_class/ TIV
+log =  $(initial_dir)/code/logs/juseless/$(Cluster).$(Process).log
+output =  $(initial_dir)/code/logs/juseless/$(Cluster).$(Process).out
+error =  $(initial_dir)/code/logs/juseless/$(Cluster).$(Process).err
+Queue
+
+
+arguments = ./run_in_venv.sh ./code/multi_class_classification.py ./derivatives/multi_class/ None
+log =  $(initial_dir)/code/logs/juseless/$(Cluster).$(Process).log
+output =  $(initial_dir)/code/logs/juseless/$(Cluster).$(Process).out
+error =  $(initial_dir)/code/logs/juseless/$(Cluster).$(Process).err
+Queue
