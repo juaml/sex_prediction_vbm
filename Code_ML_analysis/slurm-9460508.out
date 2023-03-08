@@ -1,7 +1,0 @@
-cp: cannot stat '/var/spool/parastation/jobs/sbatch_baysian_svm.slurm': No such file or directory
-STUDY_NAME: transgender
-CODE_DIR: /p/project/cinm-7/hamdan1/transgender/code
-Submitted batch job 9460509
-Submitted batch job 9460510
-Submitted batch job 9460511
-Submitted batch job 9460512
