@@ -3,3 +3,16 @@
 -code in in "code/train_baysian_svm.py" created models
 
 -code in "code/calibrated_predict.py" applies models located in "derivates" to new data
+
+
+Disclaimer
+
+This tool is provided by Forschungszentrum Jülich exclusively for convenience. It is intended to be used for research purposes only. It is neither a substitute for clinical experience or expertise nor can this electronic tool assess the clinical picture or patient-specific factors. Absolutely NO information and results from this tool are intended to be used for the diagnosis of diseases or any other conditions, or in the cure, mitigation, treatment, or prevention of diseases.
+
+Forschungszentrum Jülich provides no warranty for correctness or usability in any scientific, clinical context, commercial or any other context. Instead, all information provided by this tool should be validated by the user himself or herself. Forschungszentrum Jülich cannot exclude that using this tool violates any right of any third party.
+
+Forschungszentrum Jülich assumes no liability of any kind for the information provided by this tool, in particular Forschungszentrum Jülich assumes no liability for any direct, indirect, incidental, special, exemplary damages or any consequential damages which result from using this tool. This does not apply to damage caused by Forschungszentrum Jülich intentionally.
+
+Forschungszentrum Jülich provides no warranty that this tool is free from any virus, worm, malware, Trojan or any other malicious code which may cause damage to or control data, software or hardware of the user.
+
+Forschungszentrum Jülich is not obliged to update this tool. In case of an update, Forschungszentrum Jülich assumes no liability for any damages caused by the update.
