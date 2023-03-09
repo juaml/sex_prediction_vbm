@@ -13,9 +13,16 @@
 
 * function_05: separate accuracy computation for cisgender and transgender individuals in application samples
 
-*function_06: Violinplots to plot the TIV-distribution of cisgender and transgender men and women in application samples that were either classified as male or female to trace back a possible TIV-bias in classifications
+* function_06: Tests of prediction probabilities & Violinplots to plot the TIV-distribution of cisgender and transgender men and women in application samples that were either classified as male or female to trace back a possible TIV-bias in classifications
 
-* function_07: Violinplots to plot the TIV-distribution of men and women in both test samples that were either classified as male or female to trace back a possible TIV-bias in classifications
+* function_07: Violinplots of prediction probabilities
 
-* function_08: computation of wilcoxon rank tests to statistically prove a potential TIV-bias in classifications
+* function_08: Violinplots to plot the TIV-distribution of men and women in both test samples that were either classified as male or female to trace back a possible TIV-bias in classifications
+
+
+* function_09: computation of wilcoxon rank tests to statistically prove a potential TIV-bias in classifications
+
+* function_10: compute t-test to test differences between males and females in total GMV distributions
+
+* function_11: computation of wilcoxon rank tests to statistically test for a potential GMV-bias in classifications
 

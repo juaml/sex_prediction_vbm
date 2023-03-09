@@ -4,11 +4,11 @@
 function function_06_violinplots_probabilities_appl_samples(Path_2_merged_tables)
 
 %%% create new directory to save the variables:
-if ~exist('06_violinplots_assigned_probability_application_samples', 'dir')
-    mkdir('06_violinplots_assigned_probability_application_samples')
+if ~exist('06_ttests_violinplots_assigned_probability_application_samples', 'dir')
+    mkdir('06_ttests_violinplots_assigned_probability_application_samples')
 end
 
-savedir = fullfile(pwd, '06_violinplots_assigned_probability_application_samples');
+savedir = fullfile(pwd, '06_ttests_violinplots_assigned_probability_application_samples');
   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
